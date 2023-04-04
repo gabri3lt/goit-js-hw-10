@@ -22,8 +22,8 @@ function readData() {
   const saveFormData = localStorage.getItem(LOCALSTORAGE_KEY);
   if (saveFormData) {
     const formData = JSON.parse(saveFormData);
-    mailValue.value = formData.email;
-    messageValue.value = formData.message;
+    emailArea.value = formData.email;
+    messageArea.value = formData.message;
   }
 }
 readData();
