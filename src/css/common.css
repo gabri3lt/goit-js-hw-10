@@ -17,17 +17,20 @@ img {
   max-width: 100%;
 }
 
+.value {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 22px;
+}
 .timer {
   display: flex;
+  margin-top: 30px;
 }
 
 .field {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.value {
-  font-weight: 700;
-  font-size: x-large;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin-right: 10px;
 }
